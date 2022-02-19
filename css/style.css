@@ -1,0 +1,924 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+   
+}
+body{
+    background-color: #696969;
+    font-family: 'Roboto', sans-serif;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ul{
+    list-style-type: none;
+}
+.main-header{
+    background-color:#696969;
+}
+.row1{
+    display:flex;
+    justify-content: space-between;
+}
+
+.header-top-list{
+    list-style-type: none;
+    display:flex ;
+}
+.header-top-list  li{
+   
+    font-size: 12px;
+    font-family: 'Nunito', sans-serif;
+    color:#fff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.button{
+    font-size: 12px;
+    font-family: 'Nunito', sans-serif; 
+    font-weight:bold;
+    width:120px;
+    height:40px;
+    background-color:#00BFFF;
+    color:#fff;
+    border: none;
+}
+
+.row2{
+    display:flex;
+    justify-content: space-between;
+}
+.navbar-brand  img{
+    width:70px;
+    height:50px;
+}
+.navbar-main{
+    justify-content: space-between;
+}
+.navbar-nav{
+    display: flex;
+}
+ .main-header .nav-link{
+    color:#fff;
+    font-size: 13px;
+    font-weight:bold;
+    text-decoration:none;
+    padding-left:5px;
+    padding-right: 5px;
+} 
+.main-header  .nav-link:hover{
+    text-decoration-line: underline;
+    text-decoration-color:#2a6846;
+}
+.header-search-area{
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+} 
+.header-search-area  .search-field{
+    background-color: #696969;
+    border-color: #fff;
+    border-width:1px;
+   
+}
+
+.banner-section{
+    background-image: url('../images/banner.jpg');
+    height:400px;
+    width:100%;
+    background-position:center;
+    background-size: cover;
+}
+.banner-section  .bold{
+    font-weight: bolder;
+    font-size:30px;
+}
+.banner-section  .bold1{
+    font-weight: bolder;
+    font-size:45px;
+}
+
+.banner-section  .banner-text .flat-content {
+    text-align: center;
+    font-size: 30px;
+    padding-top:100px;
+    padding-bottom:100px;
+    color:#fff !important;
+}
+.banner-button  .button1{ 
+    width:120px;
+    height:40px;
+    background-color:#00BFFF;
+    color:#fff;
+    border: none;
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif; 
+    font-weight:bold;
+    
+}
+.banner-button  .button2{
+    width:120px;
+    height:40px;
+    background-color:#fff;
+    color:#00BFFF;
+    border: none;
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif; 
+    font-weight:bold;
+}
+
+.about-section  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .about-section  .col1 {
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+
+  .about-section  .col2 {
+    float: left;
+    width: 60%;
+    padding: 10px;
+    
+}
+.about-images .item {
+    padding:20px;
+}
+.about-images .item img{
+    width:100%;
+    height:300px;
+}
+
+ 
+
+.about-section{
+    background-color: #fff;
+    padding:20px 20px;
+   
+}
+.about-section  .button1{
+    width:150px;
+    height:40px;
+    background-color:#00BFFF;
+    color:#fff;
+    border: none;
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif; 
+    font-weight:bold;
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin-left:20px;
+    margin-right: 20px;
+}
+.about-section  h2{
+    font-weight: bolder;
+    font-size:35px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin-left:20px;
+    margin-right: 20px;
+}
+.about-section  h4{
+    font-weight:400;
+    font-size:18px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin-left:20px;
+    margin-right: 20px;
+}
+.about-section .about-thin{
+    font-weight:normal;
+    font-size:35px;
+}
+.about-section  p{
+    font-family: 'Nunito', sans-serif; 
+    font-size: 14px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin-left:20px;
+    margin-right: 20px;
+    
+}
+
+
+
+
+.progress-section  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .progress-section  .col3 {
+    float: left;
+    width: 60%;
+    padding: 10px;
+}
+.progress-section  .col5 {
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+.progress-section  .col4 {
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+
+.progress-section{
+    background-image: url('../images/progress-bg.jpg');
+    height:300px;
+    width:100%;
+    background-position:center;
+    background-size: cover;
+    padding:20px 20px;
+    
+}
+.progress-content{
+    padding-top:20px;
+    color:#fff;
+    margin-left:20px;
+    margin-right: 20px;
+}
+.progress-content  h3{
+    font-size: 20px;
+    font-weight:600;
+}
+.progress-content  p{
+    font-size: 17px;
+    font-weight:600;
+    
+}
+.circle-main{
+    width:160px;
+    height:160px;
+    position:relative;
+}
+
+.circle{
+    width:160px;
+    height:160px;
+    border-radius: 50%;
+    border: 3px solid #00BFFF;;
+    padding:18px;
+    
+}
+.second-circle{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    border: 3px solid #00BFFF;;
+    padding:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00BFFF;
+  
+}
+.number{
+    font-weight:bold;
+    font-size: 25px;
+    color:#fff;
+}
+
+.progress-bar{
+   background-color: #00BFFF;
+}
+.service-section{
+    background-image: url('../images/servicebg.jpg');
+    height:500px;
+    width:100%;
+    background-position:center;
+    background-size: cover;
+    padding:20px 20px;
+   
+}
+.service-section  .service-head{
+    text-align: center;
+}
+.service-section  h2{
+    font-weight: bolder;
+    font-size:35px;
+    padding-top:5px;
+    padding-bottom: 5px;
+   
+}
+.service-section .about-thin{
+    font-weight:normal;
+    font-size:35px;
+}
+.divider{
+    padding:10px 10px;
+   
+}
+hr{
+    
+    height:0.5px;
+    color:#f0eeee;
+   
+    
+}
+.service-section  .row4 .col6{
+    float:left;
+    width:30%;
+    padding: 20px 20px;
+    margin-left:20px;
+    margin-right: 20px;
+}
+.service-section  .row5 .col7{
+    float:left;
+    width:30%;
+    padding: 20px 20px;
+    margin-left:20px;
+    margin-right: 20px;
+}
+.service-section .row4:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .service-section .row5:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .service-section  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .service-section  .card  i{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 20px;
+   
+  }
+  .service-section  .card  h3{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 20px;
+
+  }
+  .service-section  .card  p{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif; 
+  }
+  .feature-section{
+    background-image: url('../images/feature-bg.jpg');
+    height:370px;
+    width:100%;
+    background-position:center;
+    background-size: cover;
+    padding:20px 20px;
+    min-height: 150px;
+}
+ 
+  .feature-section  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .feature-section  .col1 {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    background: rgb(30,135,85);
+    background: linear-gradient(90deg, rgba(30,135,85,1) 0%, rgba(0,251,255,1) 100%); 
+   
+}
+.feature-section  .col1 .single-feature{
+    color:#fff;
+    text-align: center;
+    padding:10px 10px;
+    
+}
+.feature-section  .col1 .single-feature p{
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif; 
+    padding-top:5px;
+
+}
+
+
+  .feature-section  .col2 {
+    float: left;
+    width: 60%;
+    padding: 10px;
+    
+}
+.feature-section  .col2  .video-content{
+    text-align: center;
+   
+    
+}
+.feature-section  .video-text h5{
+    font-size:18px;
+    color:#fff;
+    font-weight: bold;
+    padding-top:8px;
+    padding-bottom: 8px;
+   
+
+}
+.feature-section  .video-text h3{
+    font-size:35px;
+    color:#fff;
+    font-weight: bold;
+    padding-top:8px;
+    padding-bottom: 8px;
+    
+
+}
+.feature-section  .video-text i{
+    font-size: 40px;
+    color:#fff;
+}
+.portfolio-section{
+    background-color: #fff;
+}
+.portfolio-section  .portfolio-head{
+    text-align: center;
+}
+.portfolio-section  h2{
+    font-weight: bolder;
+    font-size:35px;
+    padding-top:5px;
+    padding-bottom: 5px;
+   
+}
+.portfolio-section .about-thin{
+    font-weight:normal;
+    font-size:35px;
+}
+.portfolio-section  .row8{
+    display:flex;
+    justify-content:space-between;
+   
+}
+.portfolio-section  .port-navigation{
+   display: flex;
+   justify-content: space-between;
+}
+.portfolio-section   li{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.portfolio-section  .col13{
+    text-align: center;
+}
+.portfolio-section  .row9 {
+    display:flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+  
+  }
+.portfolio-section  .column {
+    
+    flex:25%;
+    max-width:100%;
+    padding:10px 5px;
+    float:left;
+
+  }
+  
+.portfolio-section .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  } 
+  .team-section{
+    background-image: url('../images/servicebg.jpg');
+    height:700px;
+    width:100%;
+    background-position:center;
+    background-size: cover;
+    padding:20px 30px;
+   
+}
+.team-section  .team-head{
+    text-align: center;
+}
+.team-section  h2{
+    font-weight: bolder;
+    font-size:35px;
+    padding-top:5px;
+    padding-bottom: 5px;
+   
+}
+.team-section .about-thin{
+    font-weight:normal;
+    font-size:35px;
+}
+.divider{
+    padding:10px 10px;
+   
+}
+.team-section  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin:10px 10px;
+    float: left;
+    padding: 10px 10px;
+    text-align: center;
+  }
+  
+  .team-section  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  .team-section  .card  p{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif; 
+  }
+  .team-section  .teams{
+      margin-left: 40px;
+      margin-right:40px;
+  }
+  .partner-section{
+    background-image: url('../images/testimonial-bg.jpg');
+    height:300px;
+    width:100%;
+    background-position:center;
+    background-size: cover;
+    padding:20px 30px;  
+  }
+  .partner-section  .partner-words{
+      text-align: center;
+      color:#fff;
+      padding-top: 20px;
+  }
+  .news-section{
+    background-image: url('../images/servicebg.jpg');
+    height:600px;
+    width:100%;
+    background-position:center;
+    background-size: cover;
+    padding:20px 30px;
+   
+}
+.news-section  .news-head{
+    text-align: center;
+}
+.news-section  h2{
+    font-weight: bolder;
+    font-size:35px;
+    padding-top:5px;
+    padding-bottom: 5px;
+   
+}
+.news-section .about-thin{
+    font-weight:normal;
+    font-size:35px;
+}
+.news-section  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin:10px 10px;
+    float: left;
+    padding: 10px 10px;
+    text-align: center;
+  }
+  
+  .news-section  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  .news-section  .card  p{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif; 
+  }
+  .news-section  .news{
+      margin-left: 40px;
+      margin-right:40px;
+  }
+  .news-section  .news  a{
+    color:grey;
+}
+.contact-section{
+    background-image: url('../images/ready-to-start.jpg');
+    height:300px;
+    width:100%;
+    background-position:center;
+    background-size: cover;
+    padding:20px 30px;  
+  }
+  .contact-section  .contact-words{
+      text-align: center;
+      color:#fff;
+      padding-top: 20px;
+  }
+  .contact-section  .contact-words  h2{
+    text-align: center;
+    color:#fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.contact-section  .contact-words  .button2{
+    width:120px;
+    height:40px;
+    background-color:#fff;
+    color:#00BFFF;
+    border: none;
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif; 
+    font-weight:bold;
+}
+.contact-section  .contact-words  .contact-btn{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-section{
+    background-color: black;
+    height:200px;
+    width:100%;
+    color:#fff; 
+    padding:20px 30px;   
+}
+.footer-section .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .footer-section .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .footer-section  p{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif; 
+   
+  }
+@media only screen and (max-width:480px){
+    
+    .row1{
+       display: none;
+    }
+    .row2{
+        flex-direction:column;  
+    }
+    .navbar-main{
+        display: none;
+    }
+    .search-field{
+        display: none;
+    }
+    .header-search-area  i{
+      display: none;
+    }
+
+    .about-section  .row3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-section  .col2 {
+        flex-direction: column;
+        width:100%;
+    }
+    .about-section  .col1 {
+        flex-direction: column;
+        width:100%;
+    }
+    .progress-section{
+        height:auto;
+        align-items: center;
+      
+    }
+    .progress-section .row4 {
+        flex-direction: column;
+    }
+    .progress-section  .col4{
+        width:100%;
+        align-items: center;
+     }
+    .progress-section  .col5{
+       width:100%;
+    }
+   
+    .service-section {
+        height:auto;
+        align-items: center;
+    }
+    .service-section  .row4 .col6{
+        width:100%;
+    }
+    .service-section  .row5 .col7{
+        width:100%;
+    }
+    .feature-section {
+        height:auto;
+        align-items: center;
+    }
+    .feature-section  .col1{
+        width:100%;
+    }
+    .feature-section  .col2{
+        width:100%;
+        padding-top:20px;
+    }
+    .team-section{
+        height:auto;
+        align-items: center;
+      
+    }
+    .team-section  .teams{
+        width:100%;
+        align-items: center;
+      
+    }
+    .partner-section{
+        width:100%;
+        height: auto;
+        align-items: center;
+    } 
+    .news-section{
+        width:100%;
+        height: auto;
+        align-items: center;
+    } 
+    .contact-section{
+        width:100%;
+        height: auto;
+        align-items: center;
+    }
+    .footer-section{
+        
+        align-items: center;
+        width:100%;
+    }
+    .footer-section  .row{
+        flex-direction: column;
+        padding:none;
+       
+    }
+    .footer-section  .footer-contents1{
+       display:none;
+    }
+    .footer-section  .footer-contents2{
+        display:none;
+     }
+     .footer-section  .footer-contents3{
+        display:none;
+     }
+}
+@media only screen and (max-width:767px){
+    
+    .row1{
+       display: none;
+    }
+    .row2{
+        flex-direction:column;  
+    }
+    .navbar-main{
+        display: none;
+    }
+    .search-field{
+        display: none;
+    }
+    .header-search-area  i{
+      display:none;
+    }
+
+    .about-section  .row3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-section  .col2 {
+        flex-direction: column;
+        width:100%;
+    }
+    .about-section  .col1 {
+        flex-direction: column;
+        width:100%;
+    }
+    .service-section{
+        width:100%;
+        height:auto;
+        align-items: center;
+    }
+    .progress-section{
+        height:auto;
+        align-items: center;
+      
+    }
+    .progress-section .row4 {
+        flex-direction: column;
+    }
+    .progress-section  .col4{
+        width:100%;
+        align-items: center;
+     }
+    .progress-section  .col5{
+       width:100%;
+    }
+   
+    
+    .service-section  .row4 .col6{
+        width:100%;
+    }
+    .service-section  .row5 .col7{
+        width:100%;
+    }
+    .feature-section {
+        height:auto;
+        align-items: center;
+    }
+    .feature-section  .col1{
+        width:100%;
+    }
+    .feature-section  .col2{
+        width:100%;
+        padding-top:20px;
+    }
+    .team-section{
+        width:100%;
+        height:auto;
+        align-items: center;
+      
+    }
+    .team-section  .teams  .cards{
+        width:100%;
+        align-items: center;
+      
+    }
+    .partner-section{
+        width:100%;
+        height: auto;
+        align-items: center;
+    } 
+    .news-section{
+        width:100%;
+        height: auto;
+        align-items: center;
+    } 
+    .contact-section{
+        width:100%;
+        height: auto;
+        align-items: center;
+    }
+    .footer-section{
+        
+        align-items: center;
+        width:100%;
+    }
+    .footer-section  .row{
+        flex-direction: column;
+        padding:none;
+       
+    }
+    .footer-section  .footer-contents1{
+       display:none;
+    }
+    .footer-section  .footer-contents2{
+        display:none;
+     }
+     .footer-section  .footer-contents3{
+        display:none;
+     }
+}
+    
+
+   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
